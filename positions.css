@@ -1,0 +1,42 @@
+#fixed {
+	width: 121px;
+	height: 62px;
+	background-color: #eee;
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index: 1;
+}
+
+#content {
+	padding-left: 96px;
+	width: 308px;
+}
+
+p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 10px;
+}
+
+#relative {
+	background-color: #eee;
+	height: 94px;
+	position: relative;
+}
+
+div {
+	font-size: 12px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#absolute {
+position: absolute;
+z-index: 2;
+background-color: #999;
+width: 136px;
+height: 40px;
+left:183px;
+bottom:0px;
+}
